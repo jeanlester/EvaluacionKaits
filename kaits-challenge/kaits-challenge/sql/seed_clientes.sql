@@ -1,0 +1,1 @@
+USE Kaits; GO INSERT INTO dbo.Clientes(FullName, Dni) VALUES (N'Juan Pérez','12345678'),(N'Ana Torres','87654321'),(N'Carlos Díaz','45678912');

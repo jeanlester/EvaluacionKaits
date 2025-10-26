@@ -1,0 +1,1 @@
+USE Kaits; GO INSERT INTO dbo.Productos([Description], UnitPrice) VALUES (N'Café Orgánico 250g',25.50),(N'Miel de Abeja 500ml',32.90),(N'Quinua 1kg',28.00);

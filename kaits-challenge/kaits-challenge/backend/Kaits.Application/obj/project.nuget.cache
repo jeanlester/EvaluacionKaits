@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4LKx5N1fkL4=",
+  "success": true,
+  "projectFilePath": "D:\\kaits-challenge\\kaits-challenge\\backend\\Kaits.Application\\Kaits.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

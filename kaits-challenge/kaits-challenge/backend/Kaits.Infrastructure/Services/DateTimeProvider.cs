@@ -1,0 +1,1 @@
+using Kaits.Application.Interfaces; namespace Kaits.Infrastructure.Services; public class DateTimeProvider : IDateTime { public System.DateTime UtcNow => System.DateTime.UtcNow; }

@@ -1,0 +1,1 @@
+using Kaits.Application.Commands.CreateOrder; using Kaits.Application.DTOs; using Xunit; public class CreateOrderValidatorTests { [Fact] public void Invalid_When_No_Items(){ var v=new CreateOrderCommandValidator(); var result=v.Validate(new CreateOrderCommand(1,new System.Collections.Generic.List<OrderItemDto>())); Assert.False(result.IsValid);} }

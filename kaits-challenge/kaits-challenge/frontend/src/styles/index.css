@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Layout utilitario */
+.container { @apply max-w-5xl mx-auto px-4; }
+
+/* Tarjetas y tipografía */
+.card { @apply bg-white rounded-2xl shadow-md p-6; }
+.label { @apply block text-sm font-medium text-gray-700 mb-1; }
+.help { @apply text-sm text-gray-500; }
+.error { @apply text-sm text-red-600; }
+
+/* Inputs coherentes */
+.input, .select {
+  @apply w-full border border-gray-300 rounded-lg px-3 py-2 bg-white
+         focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500;
+}
+
+/* Botones */
+.button {
+  @apply inline-flex items-center justify-center h-10 px-4 rounded-lg
+         bg-indigo-600 text-white hover:bg-indigo-700 transition;
+}
+.button-secondary {
+  @apply inline-flex items-center justify-center h-10 px-4 rounded-lg
+         bg-gray-100 text-gray-800 hover:bg-gray-200 transition;
+}
+
+/* Modal */
+.modal-backdrop { @apply fixed inset-0 bg-black/40 flex items-center justify-center p-4; }
+.modal-card     { @apply bg-white rounded-2xl shadow-xl p-6 w-full max-w-md; }
+.modal-title    { @apply text-xl font-semibold mb-2; }
+.modal-actions  { @apply mt-4 flex justify-end; }

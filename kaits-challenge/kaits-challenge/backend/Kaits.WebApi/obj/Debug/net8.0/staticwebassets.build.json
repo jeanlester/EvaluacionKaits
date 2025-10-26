@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tD1UOz4rzYSV2o1S0pOCiz6gGgvjqz5ZuwV866GR3M8=",
+  "Source": "Kaits.WebApi",
+  "BasePath": "_content/Kaits.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
